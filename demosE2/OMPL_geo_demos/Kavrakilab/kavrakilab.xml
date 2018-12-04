@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Problem name="Kavrakilab Two UR5 RRTconnect" >
+	<Robot robot="robots/UR5_1.urdf">
+    		<Home X="-0.8" Y="-0.4" Z="0.035" WX="0.0" WY="0.0" WZ="1.0" TH="0.707"/>
+	</Robot>
+
+	<Robot robot="robots/UR5_2.urdf">
+    		<Home X="0.8" Y="-0.4" Z="0.035" WX="0.0" WY="0.0" WZ="1.0" TH="0.707"/>
+	</Robot>
+
+	<Obstacle obstacle="obstacles/table.urdf">
+		<Home X="0.0" Y="0.0" Z="0.0" TH="0" WX="1.0" WY="0.0" WZ="0.0"/>
+	</Obstacle>
+
+	
+	<Controls robot="controls/twoUR5.cntr" />
+	
+	<Planner>
+		<Parameters>
+			<Name>omplRRTConnect</Name>
+			<Parameter name="Max Planning Time">30</Parameter>
+			<Parameter name="Range">0.4</Parameter>
+			<Parameter name="Speed Factor">20</Parameter>
+		</Parameters>
+		<Queries>
+			<Query>
+				<Init dim="12">0.0 0.388 0.0 0.0 0.0 0.0 0.0 0.388 0.0 0.0 0.0 0.0</Init>
+				<Goal dim="12">0.3710 0.421 0.068 0.0 0.0 0.0 0.129 0.421 0.038 0.381 0.0 0.0</Goal>
+			</Query>
+		</Queries>
+	</Planner>
+</Problem>
