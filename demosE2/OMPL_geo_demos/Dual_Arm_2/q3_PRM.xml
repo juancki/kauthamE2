@@ -13,7 +13,7 @@
 		<Home TH="0.0" WX="0.0" WY="0.0" WZ="1.0" X="0.13" Y="0.60" Z="-0.61" />
 	</Obstacle>
 	<Obstacle obstacle="obstacles/TMP/shelfB.wrl" scale="0.0035">
-		<Home TH="0.500" WZ="1.0" WY="0.0" WX="0.0" Z="-0.610" Y="0.400" X="-0.10" />
+		<Home TH="0.500" WZ="1.0" WY="0.0" WX="0.0" Z="-0.610" Y="0.400" X="-0.0" />
 	</Obstacle>
 	<Obstacle obstacle="obstacles/TMP/cubeF.wrl" scale="0.005">
 		<Home TH="1.0" WZ="0.0" WY="0.0" WX="0.0" Z="-0.610" Y="0.67" X="0.36" />
@@ -29,10 +29,10 @@
 			<Parameter name="Incremental (0/1)">0</Parameter>
 			<Parameter name="Max Planning Time">30</Parameter>
 			<Parameter name="MaxNearestNeighbors">10</Parameter>
-			<Parameter name="MinExpandTime">0.05000000075</Parameter>
+			<Parameter name="MinExpandTime">0.1000000075</Parameter>
 			<Parameter name="MinGrowTime">0.200000003</Parameter>
 			<Parameter name="Path Drawn (0/1)">1</Parameter>
-			<Parameter name="Sampler 0(r) 1(h) 2(sdk) 3(g) 4(gl)">3</Parameter>
+			<Parameter name="Sampler 0(r) 1(h) 2(sdk) 3(g) 4(gl)">4</Parameter>
 			<Parameter name="Simplify Solution">2</Parameter>
 			<Parameter name="Speed Factor">1</Parameter>
 		</Parameters>
