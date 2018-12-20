@@ -13,7 +13,7 @@
 		<Home TH="0.0" WX="0.0" WY="0.0" WZ="1.0" X="0.13" Y="0.60" Z="-0.61" />
 	</Obstacle>
 	<Obstacle obstacle="obstacles/TMP/shelfB.wrl" scale="0.0035">
-		<Home TH="0.500" WZ="1.0" WY="0.0" WX="0.0" Z="-0.610" Y="0.400" X="-0.10" />
+		<Home TH="0.500" WZ="1.0" WY="0.0" WX="0.0" Z="-0.610" Y="0.400" X="-0.0" />
 	</Obstacle>
 	<Obstacle obstacle="obstacles/TMP/cubeF.wrl" scale="0.005">
 		<Home TH="1.0" WZ="0.0" WY="0.0" WX="0.0" Z="-0.610" Y="0.67" X="0.36" />
