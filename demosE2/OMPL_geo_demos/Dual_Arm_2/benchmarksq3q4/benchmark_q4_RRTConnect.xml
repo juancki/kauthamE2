@@ -1,0 +1,12 @@
+<Benchmark Name="experiment">
+	<!-- RRT  -->
+
+	<Problem File="../q4_RRTConnect.xml" PlannerAlias="RRTCQ4"/>
+
+
+	<Parameter Name="maxTime" Value="55.0" />
+	<Parameter Name="maxMem" Value="1300.0" />
+	<Parameter Name="runCount" Value="100" />
+	<Parameter Name="displayProgress" Value="true" />
+	<Parameter Name="filename" Value="resultPRMs.log" />
+</Benchmark>
